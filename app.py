@@ -1,12 +1,16 @@
-import useful_tools
 
-print(useful_tools.roll_dice(10))
+
+
+
+# import useful_tools
+# print(useful_tools.roll_dice(10))
+
 
 
 # ### Writing a file ###
 # employee_file = open("C:\\Users\CatalinMihaiIordache\Documents\PycharmProjects\Giraffe\employees3.txt", "w")
 # employee_file.write("Elena - IC Controller\n")
-# employee_file.write("Balena - Happy" + "\n")
+# employee_file.write("Balena -  Happy" + "\n")
 # employee_file.close()
 
 
