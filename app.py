@@ -1,4 +1,60 @@
+from Chef import ChefClass
+from ChineseChef import ChineseChefClass
 
+myChef = ChefClass()
+myChef.make_special_dish()
+
+myChineseChef = ChineseChefClass()
+myChineseChef.make_special_dish()
+
+
+
+
+# ## Class Function ##
+# from Student import StudentClass2
+#
+# student1 = StudentClass2("Jim", "Business", 3.1)
+# student2 = StudentClass2("Pam", "Art", 4.5)
+#
+# print(student2.on_honor_roll())
+
+
+
+# from Question import QuestionClass
+#
+# question_prompts = [
+#     "What color are apples?\n(a) Red/Green\n(b) Purple\n(c) Orange\n\n",
+#     "What color are Bananas?\n(a) Teal\n(b) Magenta\n(c) Yellow\n\n",
+#     "What color are strawberries?\n(a) Yellow\n(b) Red\n(c) Blue\n\n"
+#
+# ]
+#
+# questions = [
+#     QuestionClass(question_prompts[0], "a"),
+#     QuestionClass(question_prompts[1], "c"),
+#     QuestionClass(question_prompts[2], "b")
+# ]
+#
+# def run_test(questions):
+#     score = 0
+#     for question in questions:
+#         answer = input(question.prompt)
+#         if answer == question.answer:
+#             score += 1
+#             print("You got " + str(score) + "/" + str(len(questions)) + " correct")
+#         else:
+#             print("You got " + str(score) + "/" + str(len(questions)) + " correct")
+#
+# run_test(questions)
+
+
+
+
+# from Student import StudentClass
+# student1 = StudentClass("Jim", "Business", 3.1, False)
+# student2 = StudentClass("Pam", "Art", 2.5, True)
+# print(student1.name)
+# print(student2.gpa)
 
 
 
