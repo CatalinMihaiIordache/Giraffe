@@ -1,21 +1,30 @@
-### Writing a file ###
-employee_file = open("C:\\Users\CatalinMihaiIordache\Documents\PycharmProjects\Giraffe\employees3.txt", "w")
-employee_file.write("Elena - IC Controller\n")
-employee_file.write("Balena - Happy" + "\n")
-employee_file.close()
+import useful_tools
+
+print(useful_tools.roll_dice(10))
 
 
-### Reading a file ###
-employee_file = open("C:\\Users\CatalinMihaiIordache\Documents\PycharmProjects\Giraffe\employees3.txt", "r")
-for employee in employee_file.readlines():
-    print(employee)
-employee_file.close()
+# ### Writing a file ###
+# employee_file = open("C:\\Users\CatalinMihaiIordache\Documents\PycharmProjects\Giraffe\employees3.txt", "w")
+# employee_file.write("Elena - IC Controller\n")
+# employee_file.write("Balena - Happy" + "\n")
+# employee_file.close()
+
+
+
+# ### Reading a file ###
+# employee_file = open("C:\\Users\CatalinMihaiIordache\Documents\PycharmProjects\Giraffe\employees3.txt", "r")
+# for employee in employee_file.readlines():
+#     print(employee)
+# employee_file.close()
+
+
 
 # ### Appending to an existing file ###
 # employee_file = open("C:\\Users\CatalinMihaiIordache\Documents\PycharmProjects\employees.txt", "a")
 # employee_file.write("\nKelly - Customer Service\n")
 # employee_file.write("Toby - Human Resources" + "\n")
 # employee_file.close()
+
 
 
 # ### Reading a file ###
